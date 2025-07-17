@@ -10,7 +10,7 @@ Open your PowerShell terminal (or Command Prompt, Git Bash, WSL terminal on Linu
 
 Run the Azure login command:
 
-- az login
+``` az login ```
 
 This command will open your default web browser and prompt you to log in to your Azure account.
 
@@ -26,7 +26,7 @@ Create a new file named Virtual-Machine-AZ-Script.ps1 (or any .ps1 name you pref
 
 Paste the following content into this file:
 
-
+```
 # Define variables
 $RESOURCE_GROUP_NAME="AetherForge"
 $VM_NAME="AetherForge"
@@ -34,7 +34,9 @@ $LOCATION="centralus"
 $ADMIN_USERNAME="aetherforge"
 $ADMIN_PASSWORD="***************"
 $VM_SIZE="Standard_D2as_v4"
+```
 
+```
 # Create the resource group if it doesn't exist
 az group create --name $RESOURCE_GROUP_NAME --location $LOCATION
 
@@ -50,10 +52,12 @@ az vm create `
   --public-ip-sku Standard `
   --output json
 
+```
+
   2.2. Run the PowerShell Script
 Set PowerShell Execution Policy (One-Time Setup): If you haven't done this before, open PowerShell as Administrator and run:
 
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+ ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
 
 Type Y and press Enter to confirm. You only need to do this once per user account.
 
@@ -63,7 +67,7 @@ Navigate to the directory where you saved Virtual-Machine-AZ-Script.ps1.
 
 Execute the script using the dot-sourcing operator:
 
-.\Virtual-Machine-AZ-Script.ps1
+ ``` .\Virtual-Machine-AZ-Script.ps1 ```
 
 The script will display progress messages and, upon successful completion, will output the Public IP Address of your new VM. Make a note of this IP.
 
@@ -74,20 +78,26 @@ Open your terminal (PowerShell, Command Prompt, Git Bash, or Linux/macOS termina
 
 Execute the SSH command:
 
-ssh aetherforge@<YOUR_VM_PUBLIC_IP>
+ ```
+ssh aetherforge@<YOUR_VM_PUBLIC_IP> ```
+
+In my case the public IP was " 172.212.191.16 "
 
 Replace <YOUR_VM_PUBLIC_IP> with the actual IP address you noted from the script's output.
 
-Example: If your public IP was 20.123.45.67, the command would be: ssh aetherforge@20.123.45.67
+Example: If your public IP was 172.212.191.16 , the command would be: ssh aetherforge@172.212.191.16
 
 First-time connection prompt: If it's your first time connecting to this VM, you might see a message like:
 
+```
+
+```
 The authenticity of host '<YOUR_VM_PUBLIC_IP>' can't be established.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
+```
 Type yes and press Enter to continue.
 
-Enter the password: When prompted for the password, enter: Pineapple@123
+Enter the password: When prompted for the password, enter: ************
 
 You are now successfully logged into your Ubuntu VM!
 
