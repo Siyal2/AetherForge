@@ -22,8 +22,9 @@ The choice of (US) Central US as the primary region for the AetherForge resource
 
 <img src="https://github.com/Siyal2/AetherForge/blob/612b1960515ce6248e263069733ee313a9f87cd2/Resourses/resource-screenshots/2.jpg" width="600" alt="image alt">
 
-  Repository Structure
-To keep everything organized, this repository follows a clear structure:
+## Repository Structure :- 
+
+- To keep everything organized, this repository follows a clear structure:
 
 README.md: This file, providing an overview and initial setup details.
 
