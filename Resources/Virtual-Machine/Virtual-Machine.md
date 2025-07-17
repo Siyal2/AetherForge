@@ -16,7 +16,11 @@ This command will open your default web browser and prompt you to log in to your
 
 Follow the instructions in the browser to complete the authentication.
 
+<img src="https://github.com/Siyal2/AetherForge/blob/1a0069d8d19072ab738aab9ece1c7ec3d9a63e10/Resources/resource-screenshots/3.png" width="600" alt="image alt">
+
 Once successful, your terminal will display a JSON output with details about your Azure subscriptions.
+
+<img src="https://github.com/Siyal2/AetherForge/blob/1a0069d8d19072ab738aab9ece1c7ec3d9a63e10/Resources/resource-screenshots/azlogin.png" width="600" alt="image alt">
 
 ### 2. Create the Azure Virtual Machine (VM)
 We will use a PowerShell script to automate the VM creation process with your specified parameters.
@@ -69,6 +73,9 @@ Execute the script using the dot-sourcing operator:
 
  ``` .\Virtual-Machine-AZ-Script.ps1 ```
 
+<img src="https://github.com/Siyal2/AetherForge/blob/1a0069d8d19072ab738aab9ece1c7ec3d9a63e10/Resources/resource-screenshots/scritp-exec.png" width="600" alt="image alt">
+ 
+
 The script will display progress messages and, upon successful completion, will output the Public IP Address of your new VM. Make a note of this IP.
 
 ### 3. Connect to the Virtual Machine (VM) via SSH
@@ -111,3 +118,7 @@ This command should output:
 aetherforge
 
 This confirms that you have successfully connected to the VM as the aetherforge user.
+
+
+<img src="https://github.com/Siyal2/AetherForge/blob/1a0069d8d19072ab738aab9ece1c7ec3d9a63e10/Resources/resource-screenshots/whoami.png" width="600" alt="image alt">
+
