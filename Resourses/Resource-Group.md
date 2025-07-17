@@ -12,7 +12,7 @@ All resources for this project will be logically organized within a dedicated Az
 
 - Region: (US) Central US
 
-![image alt](https://github.com/Siyal2/AetherForge/blob/612b1960515ce6248e263069733ee313a9f87cd2/Resourses/resource-screenshots/1.jpg)
+<img src="https://github.com/Siyal2/AetherForge/blob/612b1960515ce6248e263069733ee313a9f87cd2/Resourses/resource-screenshots/1.jpg" width="600" alt="image alt">
 
 
 
