@@ -1,8 +1,8 @@
-#Initial Setup & Core Configuration
+# Initial Setup & Core Configuration
 Our journey begins with laying the foundational infrastructure within Azure. This section details the initial resource group configuration.
 
 
-Resource Group: AetherForge
+## Resource Group: AetherForge
 
 All resources for this project will be logically organized within a dedicated Azure Resource Group named AetherForge.
 
