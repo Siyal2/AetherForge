@@ -94,7 +94,7 @@ You are now successfully logged into your Ubuntu VM!
 ### 4. Verify Your User on the VM
 Once connected via SSH, you can verify which user you are logged in as using the whoami command.
 
-''' whoami '''
+``` whoami ```
 
 This command should output:
 
