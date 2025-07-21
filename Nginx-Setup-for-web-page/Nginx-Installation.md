@@ -113,7 +113,8 @@ http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx" \
 
 Repository pinning ensures that your system prefers NGINX packages from the official nginx.org repository over any NGINX packages that might be available from Ubuntu's default repositories. This prevents conflicts and ensures you get updates from your chosen source.
 
-``` echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \
+```
+echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \
     | sudo tee /etc/apt/preferences.d/99nginx
 ```
 
