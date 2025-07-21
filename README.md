@@ -28,6 +28,8 @@ To create reusable scripts and templates for common cloud and DevOps tasks.
 ## 📁 Repository Structure
 To maintain organization and clarity, this repository follows a clear and logical structure:
 
+```
+
 .
 ├── README.md                           # This file, providing an overview of the project.
 ├── Nginx-Setup-for-web-page/           # Contains documentation and scripts for NGINX setup and deployment.
@@ -52,6 +54,8 @@ To maintain organization and clarity, this repository follows a clear and logica
     ├── index.html                      # The main HTML file for the web page.
     ├── script.js                       # JavaScript file for the web page functionality.
     └── style.css                       # CSS file for styling the web page.
+
+```
 
 ## ☁️ Initial Setup & Core Configuration (Azure)
 Our journey begins with laying the foundational infrastructure within Azure. This section details the initial resource group configuration.
