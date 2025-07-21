@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry Bonanza! 🍓🫐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Berry Bonanza!</h1>
+        <p>Explore the wonderful world of berries.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#strawberry">Strawberry</a></li>
+            <li><a href="#blueberry">Blueberry</a></li>
+            <li><a href="#raspberry">Raspberry</a></li>
+            <li><a href="#blackberry">Blackberry</a></li>
+            <li><a href="#cranberry">Cranberry</a></li>
+            <li><a href="#fun-facts">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="strawberry" class="berry-section">
+            <h2>Strawberry 🍓</h2>
+            <p>The **strawberry** is a widely grown hybrid species of the genus *Fragaria*, collectively known as the strawberries. It is cultivated worldwide for its fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.</p>
+            <p>Did you know strawberries are not true berries? They are aggregate accessory fruits!</p>
+            <button class="learn-more" data-berry="strawberry">Learn More About Strawberries</button>
+            <div class="info-box hidden" id="strawberry-info">
+                <h3>Strawberry Nutrition</h3>
+                <ul>
+                    <li>Rich in Vitamin C</li>
+                    <li>Good source of Manganese</li>
+                    <li>High in Antioxidants</li>
+                </ul>
+                <p>Strawberries are delicious in salads, desserts, and smoothies. [Image of a bowl of fresh strawberries]</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="blueberry" class="berry-section">
+            <h2>Blueberry 🫐</h2>
+            <p>**Blueberries** are perennial flowering plants with indigo-colored berries from the section *Cyanococcus* within the genus *Vaccinium*. Species in the section *Cyanococcus* are the most common commercial blueberries. They are usually prostrate shrubs that can vary in size from 10 centimeters to 4 meters tall.</p>
+            <p>Blueberries are known for their high antioxidant content, especially anthocyanins, which give them their blue color.</p>
+            <button class="learn-more" data-berry="blueberry">Learn More About Blueberries</button>
+            <div class="info-box hidden" id="blueberry-info">
+                <h3>Blueberry Benefits</h3>
+                <ul>
+                    <li>Boosts brain health</li>
+                    <li>Supports heart health</li>
+                    <li>Aids digestion</li>
+                </ul>
+                <p>Enjoy blueberries in pancakes, muffins, or simply as a snack. [Image of a handful of blueberries]</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="raspberry" class="berry-section">
+            <h2>Raspberry 🔴</h2>
+            <p>**Raspberries** are the edible fruit of a multitude of plant species in the genus *Rubus* of the rose family. The name also applies to these plants themselves. Raspberries are perennial with woody stems.</p>
+            <p>There are many varieties of raspberries, including red, black, purple, and golden raspberries.</p>
+            <button class="learn-more" data-berry="raspberry">Learn More About Raspberries</button>
+            <div class="info-box hidden" id="raspberry-info">
+                <h3>Raspberry Varieties</h3>
+                <ul>
+                    <li>Red Raspberries</li>
+                    <li>Black Raspberries</li>
+                    <li>Golden Raspberries</li>
+                </ul>
+                <p>Raspberries are excellent in pies, jams, and tarts. [Image of fresh raspberries on a vine]</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="blackberry" class="berry-section">
+            <h2>Blackberry ⚫</h2>
+            <p>**Blackberries** are an edible fruit produced by many species in the genus *Rubus* in the family Rosaceae, hybrids among these species within the subgenus *Rubus*, and hybrids between the subgenus *Rubus* and species in other *Rubus* subgenera. They are aggregate fruits, composed of multiple small drupelets.</p>
+            <p>Blackberries are often confused with black raspberries, but they are distinct! Blackberries have a solid core, while black raspberries are hollow.</p>
+            <button class="learn-more" data-berry="blackberry">Learn More About Blackberries</button>
+            <div class="info-box hidden" id="blackberry-info">
+                <h3>Blackberry Facts</h3>
+                <ul>
+                    <li>Rich in fiber</li>
+                    <li>Good for skin health</li>
+                    <li>Versatile in cooking</li>
+                </ul>
+                <p>Blackberries are great in crumbles, cobblers, and as a topping for yogurt. [Image of ripe blackberries]</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="cranberry" class="berry-section">
+            <h2>Cranberry 🟥</h2>
+            <p>**Cranberries** are a group of evergreen dwarf shrubs or trailing vines in the subgenus *Oxycoccus* of the genus *Vaccinium*. They are often found in acidic bogs in the cooler regions of the Northern Hemisphere. Cranberries are known for their tart taste and vibrant red color.</p>
+            <p>Cranberries are a traditional part of Thanksgiving meals in North America.</p>
+            <button class="learn-more" data-berry="cranberry">Learn More About Cranberries</button>
+            <div class="info-box hidden" id="cranberry-info">
+                <h3>Cranberry Uses</h3>
+                <ul>
+                    <li>Juices and sauces</li>
+                    <li>Dried cranberries</li>
+                    <li>Urinary tract health</li>
+                </ul>
+                <p>Cranberries are popular in sauces, juices, and dried snacks. [Image of cranberries floating in water]</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="fun-facts" class="berry-section">
+            <h2>Berry Fun Facts! ✨</h2>
+            <div class="fact-container">
+                <p class="fact-text">Did you know that **bananas are botanically considered berries**, while strawberries are not?</p>
+                <button id="next-fact">Next Fun Fact</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Berry Bonanza. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
