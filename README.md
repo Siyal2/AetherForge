@@ -1,29 +1,30 @@
-### AetherForge: Cloud & DevOps Immersion Lab
+# AetherForge: Cloud & DevOps Immersion Lab
 AetherForge is a dedicated repository designed to serve as a practical, hands-on laboratory for implementing industry-standard cloud architectures and DevOps methodologies. This project aims to replicate real-world corporate tasks, providing a comprehensive environment for learning, experimenting, and documenting best practices in cloud engineering and continuous delivery.
 
 ## 🚀 Project Overview
+
 This repository is a central hub for:
 
-Research & Documentation: In-depth exploration and detailed documentation of various cloud services, DevOps tools, and architectural patterns.
+- Research & Documentation: In-depth exploration and detailed documentation of various cloud services, DevOps tools, and architectural patterns.
 
-Practical Guides: Step-by-step guides and tutorials for setting up, configuring, and managing cloud infrastructure and applications.
+- Practical Guides: Step-by-step guides and tutorials for setting up, configuring, and managing cloud infrastructure and applications.
 
-Industry-Standard Practices: Implementation of agile methodologies, infrastructure as code (IaC), CI/CD pipelines, monitoring, and security best practices.
+- Industry-Standard Practices: Implementation of agile methodologies, infrastructure as code (IaC), CI/CD pipelines, monitoring, and security best practices.
 
-Skill Development: A platform for honing skills in cloud platforms (e.g., Azure), Linux administration, networking, web server management (e.g., NGINX), and scripting.
+- Skill Development: A platform for honing skills in cloud platforms (e.g., Azure), Linux administration, networking, web server management (e.g., NGINX), and scripting.
 
-Whether you're a student, a professional looking to upskill, or simply curious about cloud and DevOps, AetherForge offers a structured approach to gaining practical experience.
+- Whether you're a student, a professional looking to upskill, or simply curious about cloud and DevOps, AetherForge offers a structured approach to gaining practical experience.
 
 ## 🎯 Goals
 To build and manage cloud infrastructure mirroring corporate environments.
 
-To implement robust CI/CD pipelines for automated deployments.
+- To implement robust CI/CD pipelines for automated deployments.
 
-To explore and integrate various DevOps tools and practices.
+- To explore and integrate various DevOps tools and practices.
 
-To document every step, decision, and solution comprehensively.
+- To document every step, decision, and solution comprehensively.
 
-To create reusable scripts and templates for common cloud and DevOps tasks.
+- To create reusable scripts and templates for common cloud and DevOps tasks.
 
 ## 📁 Repository Structure
 To maintain organization and clarity, this repository follows a clear and logical structure:
