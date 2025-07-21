@@ -12,8 +12,10 @@ To ensure the authenticity of the NGINX packages you download, you need to impor
 
 First, fetch the key:
 
-``` curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
+```
+curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
 | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+
 ``` 
 
 Next, verify that the downloaded file contains the correct key. The output should include the full fingerprint 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62.
