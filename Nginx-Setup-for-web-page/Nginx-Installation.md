@@ -23,13 +23,18 @@ curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
 
 Next, verify that the downloaded file contains the correct key. The output should include the full fingerprint 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62.
 
-``` gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg ```
+``` 
+gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
+
+ ```
 
 You should see output similar to this, confirming the key: 
 
-``` pub   rsa2048 2011-08-19 [SC] [expires: 2027-05-24]
+```
+ pub   rsa2048 2011-08-19 [SC] [expires: 2027-05-24]
       573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
 uid                      nginx signing key <signing-key@nginx.com>
+
 ```
 
 
@@ -42,7 +47,8 @@ Now, you need to tell " apt " where to find the NGINX packages. You have two opt
 Option A: Stable NGINX Packages (Recommended for Production)
 For stable and well-tested NGINX releases, run:
 
-``` echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
+```
+echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
 http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" \
     | sudo tee /etc/apt/sources.list.d/nginx.list
 ```
