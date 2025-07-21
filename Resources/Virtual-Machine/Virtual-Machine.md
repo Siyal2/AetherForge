@@ -74,6 +74,28 @@ Execute the script using the dot-sourcing operator:
  ``` .\Virtual-Machine-AZ-Script.ps1 ```
 
 <img src="https://github.com/Siyal2/AetherForge/blob/1a0069d8d19072ab738aab9ece1c7ec3d9a63e10/Resources/resource-screenshots/scritp-exec.png" width="600" alt="image alt">
+
+
+
+
+### The image you provided confirms the following details, matching our setup:
+
+VM Name: AetherForge
+
+Resource Group: AetherForge
+
+Location: Central US
+
+Operating System: Linux (Ubuntu 22.04)
+
+Size: Standard D2as v4 (2 vcpus, 8 GiB memory)
+
+Public IP Address: 172.212.191.16
+
+Now that your VM is created, you can proceed with connecting to it via SSH using the aetherforge username and the public IP address.
+
+<img src="https://github.com/Siyal2/AetherForge/blob/16601c2c01d37803e974c4dffa6b0ec006f5b034/Resources/resource-screenshots/vm-created.png" width="600" alt="image alt">
+
  
 
 The script will display progress messages and, upon successful completion, will output the Public IP Address of your new VM. Make a note of this IP.
