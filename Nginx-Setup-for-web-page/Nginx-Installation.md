@@ -13,8 +13,8 @@ To ensure the authenticity of the NGINX packages you download, you need to impor
 First, fetch the key:
 
 ``` curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
-    | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null ```
-
+| sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+``` 
 
 Next, verify that the downloaded file contains the correct key. The output should include the full fingerprint 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62.
 
@@ -24,7 +24,8 @@ You should see output similar to this, confirming the key:
 
 ``` pub   rsa2048 2011-08-19 [SC] [expires: 2027-05-24]
       573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
-uid                      nginx signing key <signing-key@nginx.com> ```
+uid                      nginx signing key <signing-key@nginx.com>
+```
 
 
 
@@ -38,7 +39,8 @@ For stable and well-tested NGINX releases, run:
 
 ``` echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
 http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" \
-    | sudo tee /etc/apt/sources.list.d/nginx.list ```
+    | sudo tee /etc/apt/sources.list.d/nginx.list
+```
 
 
 Option B: Mainline NGINX Packages (Latest Features, Potentially Less Stable)
@@ -46,7 +48,8 @@ If you need the very latest features and don't mind potentially less stability, 
 
 ``` echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
 http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx" \
-    | sudo tee /etc/apt/sources.list.d/nginx.list ```
+    | sudo tee /etc/apt/sources.list.d/nginx.list
+``` 
 
 Here's a proper documentation for updating an NGINX installation on Ubuntu, suitable for a GitHub repository.
 
@@ -102,7 +105,8 @@ http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx" \
 Repository pinning ensures that your system prefers NGINX packages from the official nginx.org repository over any NGINX packages that might be available from Ubuntu's default repositories. This prevents conflicts and ensures you get updates from your chosen source.
 
 ``` echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \
-    | sudo tee /etc/apt/preferences.d/99nginx ```
+    | sudo tee /etc/apt/preferences.d/99nginx
+```
 
 # 5. Update and Install/Upgrade NGINX .
 
