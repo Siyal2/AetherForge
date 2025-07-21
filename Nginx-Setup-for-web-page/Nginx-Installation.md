@@ -5,7 +5,7 @@
 Before you begin, ensure your system has the necessary tools to fetch and verify packages.
 
 ``` 
-sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring
+sudo apt install curl gnupg ca-certificates lsb-release ubuntu-keyring
 
  ```
 
