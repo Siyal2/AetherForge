@@ -123,6 +123,8 @@ echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 
 Finally, update your package lists to include the new NGINX repository, and then install or upgrade NGINX.
 
 ``` sudo apt update ```
+
+
 ``` sudo apt install nginx ```
 
 If NGINX is already installed from the official repository, sudo apt install nginx will intelligently upgrade it to the latest version available in the configured repository. If it's not installed, it will perform a fresh installation.
