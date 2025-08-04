@@ -110,3 +110,15 @@ This guide outlines the complete process to set up a Jenkins Master virtual mach
     ```
     Copy the alphanumeric password displayed in the terminal and paste it into the Jenkins unlock screen. You can often also find this password in the first few lines of the `systemctl status jenkins` output.
     Follow the on-screen instructions to complete the setup (install recommended plugins, create the first admin user).
+
+
+
+
+### Successfully Accessed Jenkins Web UI
+
+Congratulations! You should now be able to access the Jenkins web interface. The first screen you encounter will be the "Unlock Jenkins" page, prompting you for the initial administrator password.
+
+![Screenshot of Jenkins Unlock Page](path/to/your/unlock_jenkins_screenshot.png) 
+**(Replace `path/to/your/unlock_jenkins_screenshot.png` with the actual path or filename of your screenshot if you host it in your GitHub repo.)*
+
+Proceed with unlocking Jenkins as described in the previous steps.
