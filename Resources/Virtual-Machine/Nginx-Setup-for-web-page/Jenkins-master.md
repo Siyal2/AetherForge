@@ -20,6 +20,10 @@ The Jenkins Master VM is provisioned within the existing `AetherForge` resource 
 | **VM Generation** | `V2`                                   |
 
 
+
+<img src="https://github.com/Siyal2/AetherForge/blob/803a57597eb593fd80f52144a47e21b83936870f/Resources/resource-screenshots/master-jenkins.png" width="600" alt="image alt">
+
+
 **Justification for Resource Group Re-use:**
 Utilizing the `AetherForge` resource group for the Jenkins VM, along with other project resources, streamlines several aspects:
 * **Centralized Management:** All related Azure resources are grouped together, simplifying administration and monitoring.
@@ -31,7 +35,7 @@ Utilizing the `AetherForge` resource group for the Jenkins VM, along with other 
 
 *(You would replace this placeholder with an actual screenshot of the Jenkins Master VM's overview blade in the Azure Portal, similar to how you added the Resource Group creation screenshot.)*
 <p align="center">
-  <img src="URL_TO_YOUR_JENKINS_MASTER_VM_SCREENSHOT.png" width="750" alt="Jenkins Master VM Overview in Azure Portal">
+  <img src="https://github.com/Siyal2/AetherForge/blob/803a57597eb593fd80f52144a47e21b83936870f/Resources/resource-screenshots/connection-sucess.png" width="750" alt="Jenkins Master VM Overview in Azure Portal">
 </p>
 
 # Jenkins Master VM Setup Guide
@@ -122,3 +126,5 @@ Congratulations! You should now be able to access the Jenkins web interface. The
 **(Replace `path/to/your/unlock_jenkins_screenshot.png` with the actual path or filename of your screenshot if you host it in your GitHub repo.)*
 
 Proceed with unlocking Jenkins as described in the previous steps.
+
+<img src="https://github.com/Siyal2/AetherForge/blob/803a57597eb593fd80f52144a47e21b83936870f/Resources/resource-screenshots/finalll.png" width="600" alt="image alt">
